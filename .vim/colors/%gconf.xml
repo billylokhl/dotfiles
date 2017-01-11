@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="use_theme_colors" mtime="1441617678" type="bool" value="false"/>
+	<entry name="background_darkness" mtime="1441618721" type="float" value="0.87401574850082397"/>
+	<entry name="background_type" mtime="1441584927" type="string">
+		<stringvalue>transparent</stringvalue>
+	</entry>
+	<entry name="font" mtime="1441584941" type="string">
+		<stringvalue>Monospace Bold 16</stringvalue>
+	</entry>
+	<entry name="use_system_font" mtime="1441584927" type="bool" value="false"/>
+	<entry name="visible_name" mtime="1441584927" type="string">
+		<stringvalue>Default</stringvalue>
+	</entry>
+	<entry name="palette" mtime="1441618941" type="string">
+		<stringvalue>#000000000000:#DADA20201414:#5C5CA6A66363:#C71CC71C4EE9:#5E668C6CE203:#DADA20201414:#0000CDCDCDCD:#FAFAD7D7D83B:#404040404040:#FFFF00000000:#0000FFFF0000:#FFFFFFFF0000:#5E5E8C8CE1E1:#D52D684BD52D:#0000FFFFFFFF:#FFFFFFFFFFFF</stringvalue>
+	</entry>
+	<entry name="background_color" mtime="1441618696" type="string">
+		<stringvalue>#262629292C2C</stringvalue>
+	</entry>
+	<entry name="foreground_color" mtime="1441584927" type="string">
+		<stringvalue>#FFFFFFFFFFFF</stringvalue>
+	</entry>
+</gconf>
