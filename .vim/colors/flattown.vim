@@ -1,3 +1,4 @@
+set background=dark
 if version > 580
     hi clear
     if exists("syntax_on")
@@ -6,43 +7,39 @@ if version > 580
 endif
 
 set t_Co=256
-let g:colors_name = "calibrecolor"
+let g:colors_name = "flattown"
 
 hi Cursor guifg=#262626 guibg=#d7ffff guisp=#d7ffff gui=NONE ctermfg=235 ctermbg=195 cterm=NONE
 hi Ignore guifg=#60666b guibg=NONE guisp=NONE gui=NONE ctermfg=242 ctermbg=NONE cterm=NONE
 hi VertSplit guifg=#444444 guibg=#444444 guisp=#444444 gui=NONE ctermfg=238 ctermbg=238 cterm=NONE
 hi NonText guifg=#949494 guibg=NONE guisp=NONE gui=NONE ctermfg=246 ctermbg=NONE cterm=NONE
 
-hi Normal guifg=#e0e0e0 guibg=#26292c guisp=#26292c gui=NONE ctermfg=254 ctermbg=NONE cterm=NONE
-"hi LineNr guifg=#515253 guibg=#2c2f31 guisp=#2c2f31 gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi LineNr guifg=#e12b2b guibg=NONE guisp=NONE gui=NONE ctermfg=DarkRed ctermbg=NONE cterm=NONE
+hi Normal guifg=#e0e0e0 guibg=#26292c guisp=#26292c gui=NONE ctermfg=254 ctermbg=235 cterm=NONE
+hi LineNr guifg=#515253 guibg=#2c2f31 guisp=#2c2f31 gui=NONE ctermfg=239 ctermbg=236 cterm=NONE
 
-hi Comment guifg=#5eab5d guibg=NONE guisp=NONE gui=NONE ctermfg=DarkGreen ctermbg=NONE cterm=NONE
-hi Comment2 guifg=#64b761 guibg=NONE guisp=NONE gui=NONE ctermfg=242 ctermbg=NONE cterm=NONE
-hi Comment3 guifg=#5F87D7 guibg=NONE guisp=NONE gui=NONE ctermfg=068 ctermbg=NONE cterm=NONE
+hi Comment guifg=#60666b guibg=NONE guisp=NONE gui=NONE ctermfg=242 ctermbg=NONE cterm=NONE
 hi Todo guifg=#798188 guibg=NONE guisp=NONE gui=bold ctermfg=66 ctermbg=NONE cterm=bold
 
 hi Function guifg=#af87d7 guibg=NONE guisp=NONE gui=NONE ctermfg=140 ctermbg=NONE cterm=NONE
 hi Identifier guifg=#96cdeb guibg=NONE guisp=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
-hi Type guifg=#64b761 guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE
+hi Type guifg=#5f87d7 guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE
 hi Directory guifg=#4a80ba guibg=NONE guisp=NONE gui=NONE ctermfg=67 ctermbg=NONE cterm=NONE
-hi Special guifg=#5ed3fa guibg=NONE guisp=NONE gui=NONE ctermfg=045 ctermbg=NONE cterm=NONE
+hi Special guifg=#db402c guibg=NONE guisp=NONE gui=NONE ctermfg=160 ctermbg=NONE cterm=NONE
 
-hi Float guifg=#ed3c3c guibg=NONE guisp=NONE gui=NONE ctermfg=001 ctermbg=NONE cterm=NONE
-hi Character guifg=#b8d977 guibg=NONE guisp=NONE gui=NONE ctermfg=001 ctermbg=NONE cterm=NONE
-hi Number guifg=#b8d977 guibg=NONE guisp=NONE gui=NONE ctermfg=001 ctermbg=NONE cterm=NONE
-hi Boolean guifg=#b8d977 guibg=NONE guisp=NONE gui=NONE ctermfg=001 ctermbg=NONE cterm=NONE
-hi Constant guifg=#b8d977 guibg=NONE guisp=NONE gui=NONE ctermfg=001 ctermbg=NONE cterm=NONE
+hi Float guifg=#b8d977 guibg=NONE guisp=NONE gui=NONE ctermfg=150 ctermbg=NONE cterm=NONE
+hi Character guifg=#b8d977 guibg=NONE guisp=NONE gui=NONE ctermfg=150 ctermbg=NONE cterm=NONE
+hi Number guifg=#b8d977 guibg=NONE guisp=NONE gui=NONE ctermfg=150 ctermbg=NONE cterm=NONE
+hi Boolean guifg=#b8d977 guibg=NONE guisp=NONE gui=NONE ctermfg=150 ctermbg=NONE cterm=NONE
+hi Constant guifg=#b8d977 guibg=NONE guisp=NONE gui=NONE ctermfg=150 ctermbg=NONE cterm=NONE
 
 hi String guifg=#76b976 guibg=NONE guisp=NONE gui=NONE ctermfg=71 ctermbg=NONE cterm=NONE
 
 hi Statement guifg=#ffd75f guibg=NONE guisp=NONE gui=NONE ctermfg=221 ctermbg=NONE cterm=NONE
 hi PreProc guifg=#fa9a4b guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
 hi Define guifg=#db402c guibg=NONE guisp=NONE gui=NONE ctermfg=167 ctermbg=NONE cterm=NONE
-hi Include guifg=#36b1dc guibg=NONE guisp=NONE gui=NONE ctermfg=208 ctermbg=NONE cterm=NONE
-hi Macro guifg=#e12b2b guibg=NONE guisp=NONE gui=NONE ctermfg=001 ctermbg=NONE cterm=NONE
+hi Include guifg=#db402c guibg=NONE guisp=NONE gui=NONE ctermfg=167 ctermbg=NONE cterm=NONE
+hi Macro guifg=#db402c guibg=NONE guisp=NONE gui=NONE ctermfg=167 ctermbg=NONE cterm=NONE
 hi Exception guifg=#db402c guibg=NONE guisp=NONE gui=NONE ctermfg=167 ctermbg=NONE cterm=NONE
-hi Ifdef guifg=#d03e8d guibg=NONE guisp=NONE gui=NONE ctermfg=DarkMagenta ctermbg=NONE cterm=NONE
 
 hi Conditional guifg=#ffaf5f guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
 hi Repeat guifg=#ffaf5f guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
@@ -107,7 +104,7 @@ hi PreProc guifg=#fa9a4b guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE
 hi Visual guifg=NONE guibg=#414549 guisp=#414549 gui=NONE ctermfg=NONE ctermbg=239 cterm=NONE
 "hi MoreMsg -- no settings --
 "hi SpellCap -- no settings --
-hi Keyword guifg=#ffd75f guibg=NONE guisp=NONE gui=NONE ctermfg=221 ctermbg=NONE cterm=NONE
+hi Keyword guifg=#fa9a4b guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
 hi DiffChange guifg=NONE guibg=#273645 guisp=#273645 gui=NONE ctermfg=NONE ctermbg=238 cterm=NONE
 "hi SpellLocal -- no settings --
 "hi Error -- no settings --
