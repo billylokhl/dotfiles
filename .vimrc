@@ -48,6 +48,7 @@ autocmd VimResized * wincmd =
 
 autocmd BufRead,BufNewFile *.drc  set filetype=calibre
 autocmd BufRead,BufNewFile *.hdr  set filetype=calibre
+autocmd BufRead,BufNewFile *.lua  set filetype=alt
 
 set tags=./tags;
 
