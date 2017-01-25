@@ -22,7 +22,8 @@ hi Comment2 guifg=#64b761 guibg=NONE guisp=NONE gui=NONE ctermfg=242 ctermbg=NON
 hi Comment3 guifg=#5F87D7 guibg=NONE guisp=NONE gui=NONE ctermfg=068 ctermbg=NONE cterm=NONE
 hi Todo guifg=#798188 guibg=NONE guisp=NONE gui=bold ctermfg=66 ctermbg=NONE cterm=bold
 
-hi Function guifg=#af87d7 guibg=NONE guisp=NONE gui=NONE ctermfg=140 ctermbg=NONE cterm=NONE
+"hi Function guifg=#af87d7 guibg=NONE guisp=NONE gui=NONE ctermfg=140 ctermbg=NONE cterm=NONE
+hi Function guifg=#6ccc36 guibg=NONE guisp=NONE gui=NONE ctermfg=36 ctermbg=NONE cterm=NONE
 hi Identifier guifg=#96cdeb guibg=NONE guisp=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
 hi Type guifg=#64b761 guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE
 hi Directory guifg=#4a80ba guibg=NONE guisp=NONE gui=NONE ctermfg=67 ctermbg=NONE cterm=NONE
