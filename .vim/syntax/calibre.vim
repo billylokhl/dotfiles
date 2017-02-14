@@ -5,7 +5,7 @@ if exists("b:current_syntax")
     finish
 endif
 
-let b:current_syntax = "calibrecolor"
+let b:current_syntax = "calibre"
 
 " Ignore case
 syntax case ignore
@@ -64,9 +64,9 @@ highlight default link calSecondaryKeywords Keyword
 
 " PreProc
 "   Include
-syntax match calibreIncludePreProc /\v^\s*include(\s+\S+){1}/
-
+syntax match calibreIncludePreProc /\v^\s*include\s+\S+/
 highlight default link calibreIncludePreProc Include
+
 
 "   Define
 syntax match calibreDefinePreproc /\v^\s*#define/ contains=calibreComment

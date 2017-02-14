@@ -6,24 +6,23 @@ if version > 580
 endif
 
 set t_Co=256
-let g:colors_name = "calibrecolor"
+let g:colors_name = "khlcolor"
 
 hi Cursor guifg=#262626 guibg=#d7ffff guisp=#d7ffff gui=NONE ctermfg=235 ctermbg=195 cterm=NONE
 hi Ignore guifg=#60666b guibg=NONE guisp=NONE gui=NONE ctermfg=242 ctermbg=NONE cterm=NONE
 hi VertSplit guifg=#444444 guibg=#444444 guisp=#444444 gui=NONE ctermfg=238 ctermbg=238 cterm=NONE
 hi NonText guifg=#949494 guibg=NONE guisp=NONE gui=NONE ctermfg=246 ctermbg=NONE cterm=NONE
 
-hi Normal guifg=#e0e0e0 guibg=#26292c guisp=#26292c gui=NONE ctermfg=254 ctermbg=NONE cterm=NONE
-"hi LineNr guifg=#515253 guibg=#2c2f31 guisp=#2c2f31 gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
-hi LineNr guifg=#e12b2b guibg=NONE guisp=NONE gui=NONE ctermfg=DarkRed ctermbg=NONE cterm=NONE
+hi Normal guifg=#e0e0e0 guibg=#111111 guisp=#26292c gui=NONE ctermfg=254 ctermbg=NONE cterm=NONE
+hi LineNr guifg=#b35103 guibg=NONE guisp=NONE gui=NONE ctermfg=166 ctermbg=NONE cterm=NONE
 
 hi Comment guifg=#5eab5d guibg=NONE guisp=NONE gui=NONE ctermfg=DarkGreen ctermbg=NONE cterm=NONE
-hi Comment2 guifg=#64b761 guibg=NONE guisp=NONE gui=NONE ctermfg=242 ctermbg=NONE cterm=NONE
+hi Comment2 guifg=#8787af guibg=NONE guisp=NONE gui=NONE ctermfg=103 ctermbg=NONE cterm=NONE
 hi Comment3 guifg=#5F87D7 guibg=NONE guisp=NONE gui=NONE ctermfg=068 ctermbg=NONE cterm=NONE
 hi Todo guifg=#798188 guibg=NONE guisp=NONE gui=bold ctermfg=66 ctermbg=NONE cterm=bold
 
-"hi Function guifg=#af87d7 guibg=NONE guisp=NONE gui=NONE ctermfg=140 ctermbg=NONE cterm=NONE
-hi Function guifg=#6ccc36 guibg=NONE guisp=NONE gui=NONE ctermfg=36 ctermbg=NONE cterm=NONE
+hi Function guifg=#00af87 guibg=NONE guisp=NONE gui=NONE ctermfg=36 ctermbg=NONE cterm=NONE
+hi Obsolete guifg=#505050 guibg=NONE guisp=NONE gui=NONE ctermfg=238 ctermbg=NONE cterm=NONE
 hi Identifier guifg=#96cdeb guibg=NONE guisp=NONE gui=NONE ctermfg=81 ctermbg=NONE cterm=NONE
 hi Type guifg=#64b761 guibg=NONE guisp=NONE gui=NONE ctermfg=68 ctermbg=NONE cterm=NONE
 hi Directory guifg=#4a80ba guibg=NONE guisp=NONE gui=NONE ctermfg=67 ctermbg=NONE cterm=NONE
@@ -75,7 +74,7 @@ hi PreCondit guifg=#ffb454 guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NO
 hi StatusLineNC guifg=#b8b8b8 guibg=#292c2f guisp=#292c2f gui=NONE ctermfg=250 ctermbg=236 cterm=NONE
 "hi CTagsMember -- no settings --
 "hi CTagsGlobalConstant -- no settings --
-hi DiffText guifg=NONE guibg=#2E4052 guisp=#2E4052 gui=bold ctermfg=NONE ctermbg=239 cterm=bold
+hi DiffText guifg=#000000 guibg=#df6619 guisp=#2E4052 gui=bold ctermfg=NONE ctermbg=239 cterm=bold
 hi ErrorMsg guifg=#f8f8f8 guibg=#ad3725 guisp=#ad3725 gui=NONE ctermfg=15 ctermbg=124 cterm=NONE
 hi Debug guifg=#f8f8f8 guibg=NONE guisp=NONE gui=NONE ctermfg=15 ctermbg=NONE cterm=NONE
 hi PMenuSbar guifg=#cdcecf guibg=#35393e guisp=#35393e gui=NONE ctermfg=252 ctermbg=237 cterm=NONE

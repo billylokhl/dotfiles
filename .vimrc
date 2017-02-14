@@ -11,16 +11,13 @@ set cursorline
 set showmatch
 let python_highlight_all = 1
 
-color calibrecolor
-"set guifont=Monaco:h12
-set gfn=Monospace\ Bold\ 16
-"set gfn=Monospace\ 16
-highlight LineNr guifg=#e12b2b
+color khlcolor
+set gfn=Monospace\ Bold\ 15
 
 let g:NERDTreeWinPos = "right"
 set guioptions-=T " Removes top toolbar
 set guioptions-=r " Removes right hand scroll bar
-set go-=L " Removes left hand scroll bar
+set guioptions-=L " Removes left hand scroll bar
 autocmd User Rails let b:surround_{char2nr('-')} = "<% \r %>" " displays <% %> correctly
 :set cpoptions+=$ " puts a $ marker for the end of words/lines in cw/c$ commands
 
@@ -42,9 +39,9 @@ let NERDTreeQuitOnOpen = 1
 "automatically adjust window sizes in split mode
 autocmd VimResized * wincmd =
 
-""opens gvim window with a certain width
-"au BufRead * let &numberwidth = float2nr(log10(line("$"))) + 2
-"          \| let &columns = &numberwidth + 100
+"opens gvim window with a certain width
+au BufRead * let &numberwidth = float2nr(log10(line("$"))) + 2
+          \| let &columns = &numberwidth + 100
 
 autocmd BufRead,BufNewFile *.drc  set filetype=calibre
 autocmd BufRead,BufNewFile *.hdr  set filetype=calibre

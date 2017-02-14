@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/nfs/orto/proj/tapeout/flows'
 let g:netrw_dirhist_2='/nfs/pdx/home/kaholo/.gvim'
 let g:netrw_dirhist_3='/hnfs/torcfs02n03a/vol/ret_users_kaholo/E4.1'
+let g:netrw_dirhist_4='/hnfs/torcfs02n03a/vol/ret_WG_EUV3/khl/alt/sadanandscript/test.lua'
