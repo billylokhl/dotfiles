@@ -28,12 +28,12 @@ map <C-n> :NERDTreeToggle<CR>
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 "NERDTreeMirrorOpen
 
-" move to next tab
+"move to next tab
 map <C-l> :tabn<CR>
-" move to prev tab
+"move to prev tab
 map <C-h> :tabp<CR>
 
-" close NERDtree automatically after opening a file
+"close NERDtree automatically after opening a file
 let NERDTreeQuitOnOpen = 1
 
 "automatically adjust window sizes in split mode
