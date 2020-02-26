@@ -21,7 +21,6 @@ set guioptions-=L " Removes left hand scroll bar
 autocmd User Rails let b:surround_{char2nr('-')} = "<% \r %>" " displays <% %> correctly
 :set cpoptions+=$ " puts a $ marker for the end of words/lines in cw/c$ commands
 
-
 "NERDTree configs
 "execute pathogen#infect()
 map <C-n> :NERDTreeToggle<CR>
