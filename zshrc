@@ -105,3 +105,11 @@ alias ..6="../../../../.."
 alias ..7="../../../../../.."
 alias ..8="../../../../../../.."
 alias ..9="../../../../../../../.."
+
+alias h="history"
+
+# homebrew
+export PATH="/usr/local/bin:/usr/local/sbin:~/bin:/opt/homebrew/bin:$PATH"
+
+# pyenv
+eval "$(pyenv init -)"
