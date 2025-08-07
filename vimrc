@@ -1,51 +1,22 @@
-syntax on
-set ts=4 expandtab
-set number
-set mouse=a
-set bs=2
-set ruler
-set foldmethod=syntax
-set nofoldenable
-set tabpagemax=100
-set cursorline
-set showmatch
-let python_highlight_all = 1
+set number                      "line numbers are good
+set backspace=indent,eol,start	"allow backspace in insert mode
+set mouse=a                     "allow use of mouse
+set history=1000                "store lots of :cmdline history
+set showcmd                     "show incomplete cmds down the bottom
+set showmode                    "show current mode down the bottom
+set autoread                    "reload files changed outside vim
+set ruler            			"shows current cursor position
+set foldmethod=syntax        	"folds code according to language syntax
+set tabpagemax=20        		"opens up to 20 files (default: 10)
+set showmatch            		"highlight matching brackets/braces/parentheses
+set wrap            			"wrap text
+set noswapfile            		"do not create swap files
+set tabstop=4            		"tab = 4 spaces
+set expandtab                   "convert tab into spaces
+syntax on                       "syntax highlighting
 
-color khlcolor
-set gfn=Monospace\ Bold\ 15
-
-let g:NERDTreeWinPos = "right"
-set guioptions-=T " Removes top toolbar
-set guioptions-=r " Removes right hand scroll bar
-set guioptions-=L " Removes left hand scroll bar
-autocmd User Rails let b:surround_{char2nr('-')} = "<% \r %>" " displays <% %> correctly
-:set cpoptions+=$ " puts a $ marker for the end of words/lines in cw/c$ commands
-
-"NERDTree configs
-"execute pathogen#infect()
-map <C-n> :NERDTreeToggle<CR>
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-"NERDTreeMirrorOpen
-
-"move to next tab
-map <C-l> :tabn<CR>
-"move to prev tab
-map <C-h> :tabp<CR>
-
-"close NERDtree automatically after opening a file
-let NERDTreeQuitOnOpen = 1
-
-"automatically adjust window sizes in split mode
-autocmd VimResized * wincmd =
-
-"opens gvim window with a certain width
-au BufRead * let &numberwidth = float2nr(log10(line("$"))) + 2
-          \| let &columns = &numberwidth + 100
-
-autocmd BufRead,BufNewFile *.drc  set filetype=calibre
-autocmd BufRead,BufNewFile *.hdr  set filetype=calibre
-autocmd BufRead,BufNewFile *.lua  set filetype=alt
-
-set tags=./tags;
-
-hi MatchParen cterm=underline ctermbg=none ctermfg=cyan
+" Enable persistent undo
+set undofile            		"create undo file for each edited file
+set undodir=~/.vim/undodir    	"directory to store undo files
+set undolevels=1000        		"number of undoable changes
+set undoreload=10000        	"amount of data stored for each undo level
